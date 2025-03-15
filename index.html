@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Trading Bot - HFT Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#stocks">Stocks</a></li>
+                <li><a href="#reports">Reports</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="watermark">🐂</div>
+
+    <main>
+        <div id="media-display">
+            <div id="media-content">
+                </div>
+        </div>
+
+        <section id="stocks">
+            <div class="section-container">
+                <h2>Nifty 50 Real-Time Stock Prices</h2>
+                <div class="table-container">
+                    <table id="stock-table">
+                        <thead>
+                            <tr>
+                                <th>Stock Name</th>
+                                <th>Price</th>
+                                <th>Change</th>
+                                <th>Change %</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            </tbody>
+                    </table>
+                </div>
+                <button class="display-media" data-target="stock-table">Display Stock Data</button>
+            </div>
+        </section>
+
+        <section id="controls">
+            <div class="section-container">
+                <h2>Trading Controls</h2>
+                <div class="controls-grid">
+                    <button id="kill-switch" class="control-button kill">Kill Switch</button>
+                    <button id="start-trading" class="control-button start">Start Trading</button>
+                    <button id="stop-trading" class="control-button stop">Stop Trading</button>
+                    <button id="download-report" class="control-button report">Download Report</button>
+                </div>
+                <button class="display-media" data-target="controls">Display Controls</button>
+            </div>
+        </section>
+
+        <section id="chart">
+            <div class="section-container">
+                <h2>Real-Time Stock Chart</h2>
+                <canvas id="stockChart"></canvas>
+                <button class="display-media" data-target="stockChart">Display Stock Chart</button>
+            </div>
+        </section>
+
+        <section id="news">
+            <div class="section-container">
+                <h2>Stock Market News Feed</h2>
+                <div id="news-container" class="news-grid">
+                    </div>
+                <button class="display-media" data-target="news-container">Display News</button>
+            </div>
+        </section>
+
+        <section id="returns-graph">
+            <div class="section-container">
+                <h2>Portfolio Returns Over Time</h2>
+                <canvas id="returnsChart"></canvas>
+                <button class="display-media" data-target="returnsChart">Display Returns Graph</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

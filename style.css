@@ -1,0 +1,33 @@
+/* styles.css */
+
+/* ... (previous styles) ... */
+
+#media-display {
+    position: sticky;
+    top: 10px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    z-index: 100;
+}
+
+#media-content {
+    overflow-x: auto;
+}
+
+.display-media {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ... (responsive design) ... */
