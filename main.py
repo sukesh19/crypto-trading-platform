@@ -1,6 +1,6 @@
 import upstox
 import pandas as pd
-import numpy as np
+import numpy as n
 import talib
 import sklearn
 from sklearn.ensemble import RandomForestClassifier
