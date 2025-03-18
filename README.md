@@ -1,1 +1,2 @@
-# price-sentiment-model-using-ml
+crypto trading platform 
+
