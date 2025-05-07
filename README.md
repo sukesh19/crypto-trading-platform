@@ -1,6 +1,6 @@
 Sure! Here's a project description you can use for your crypto trading platform. This version is concise, informative, and suitable for a GitHub `README.md` or project page:
 
----
+---*
 
 ## 📈 Crypto Trading Platform – Automated Cryptocurrency Trading Bot
 
